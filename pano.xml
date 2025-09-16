@@ -13,11 +13,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:19" copyright="" altitude="792.60" nodeid="node1" comment="" heading="-97.3774" latitude="-23.67727230" longitude="-46.51611067" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:19" copyright="" altitude="792.60" nodeid="node1" comment="" heading="-97.3774" latitude="-23.67727230" longitude="-46.51611067" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node2}" pan="6.50988" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node2}" pan="6.50988" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -37,12 +37,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:21" copyright="" altitude="789.60" nodeid="node2" comment="" heading="-102.476" latitude="-23.67727936" longitude="-46.51614185" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:21" copyright="" altitude="789.60" nodeid="node2" comment="" heading="-102.476" latitude="-23.67727936" longitude="-46.51614185" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node1}" pan="-178.589" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node3}" pan="1.88496" distance="3.03059" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node1}" pan="-178.589" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node3}" pan="1.88496" distance="3.03059" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -62,12 +62,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:23" copyright="" altitude="791.30" nodeid="node3" comment="" heading="-106.142" latitude="-23.67728612" longitude="-46.51617068" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:23" copyright="" altitude="791.30" nodeid="node3" comment="" heading="-106.142" latitude="-23.67728612" longitude="-46.51617068" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node2}" pan="-181.781" distance="3.03059" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node4}" pan="-5.20458" distance="3.23499" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node2}" pan="-181.781" distance="3.03059" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node4}" pan="-5.20458" distance="3.23499" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -87,12 +87,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:24" copyright="" altitude="800.10" nodeid="node4" comment="" heading="-14.8928" latitude="-23.67729164" longitude="-46.51620187" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:24" copyright="" altitude="800.10" nodeid="node4" comment="" heading="-14.8928" latitude="-23.67729164" longitude="-46.51620187" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node3}" pan="-93.9554" distance="3.23499" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node5}" pan="-6.11163" distance="2.90173" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node3}" pan="-93.9554" distance="3.23499" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node5}" pan="-6.11163" distance="2.90173" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -112,12 +112,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:27" copyright="" altitude="792.90" nodeid="node5" comment="" heading="-94.715" latitude="-23.67726585" longitude="-46.51620622" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:27" copyright="" altitude="792.90" nodeid="node5" comment="" heading="-94.715" latitude="-23.67726585" longitude="-46.51620622" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node4}" pan="-265.934" distance="2.90173" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node6}" pan="-5.49676" distance="3.74889" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node4}" pan="-265.934" distance="2.90173" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node6}" pan="-5.49676" distance="3.74889" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -137,12 +137,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:29" copyright="" altitude="788.20" nodeid="node6" comment="" heading="-391.027" latitude="-23.67726539" longitude="-46.51624303" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:29" copyright="" altitude="788.20" nodeid="node6" comment="" heading="-391.027" latitude="-23.67726539" longitude="-46.51624303" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node5}" pan="-481.809" distance="3.74889" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-404.904" distance="3.12918" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node5}" pan="-481.809" distance="3.74889" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node7}" pan="-404.904" distance="3.12918" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -162,13 +162,13 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:30" copyright="" altitude="791.70" nodeid="node7" comment="" heading="-285.705" latitude="-23.67723807" longitude="-46.51623566" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:30" copyright="" altitude="791.70" nodeid="node7" comment="" heading="-285.705" latitude="-23.67723807" longitude="-46.51623566" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node6}" pan="-119.582" distance="3.12918" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node8}" pan="-337.934" distance="3.4565" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node9}" pan="-180.436" distance="4.28155" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node6}" pan="-119.582" distance="3.12918" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node8}" pan="-337.934" distance="3.4565" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node9}" pan="-180.436" distance="4.28155" target="$fwd" skinid="ht_node" id="Point03" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -188,11 +188,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:32" copyright="" altitude="795.40" nodeid="node8" comment="" heading="-369.836" latitude="-23.67721903" longitude="-46.51620883" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:32" copyright="" altitude="795.40" nodeid="node8" comment="" heading="-369.836" latitude="-23.67721903" longitude="-46.51620883" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-242.065" distance="3.4565" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node7}" pan="-242.065" distance="3.4565" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -212,12 +212,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:34" copyright="" altitude="791.30" nodeid="node9" comment="" heading="-105.888" latitude="-23.67724821" longitude="-46.51627622" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:34" copyright="" altitude="791.30" nodeid="node9" comment="" heading="-105.888" latitude="-23.67724821" longitude="-46.51627622" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-14.0674" distance="4.27005" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-180.619" distance="4.28155" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node12}" pan="-14.0674" distance="4.27005" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node7}" pan="-180.619" distance="4.28155" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -237,12 +237,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:35" copyright="" altitude="793.70" nodeid="node10" comment="" heading="-22.7891" latitude="-23.67724668" longitude="-46.51635400" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:35" copyright="" altitude="793.70" nodeid="node10" comment="" heading="-22.7891" latitude="-23.67724668" longitude="-46.51635400" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node11}" pan="-6.22695" distance="3.95471" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-117.574" distance="3.66559" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node11}" pan="-6.22695" distance="3.95471" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node12}" pan="-117.574" distance="3.66559" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -262,11 +262,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:37" copyright="" altitude="797.20" nodeid="node11" comment="" heading="-14.9352" latitude="-23.67721259" longitude="-46.51636507" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:37" copyright="" altitude="797.20" nodeid="node11" comment="" heading="-14.9352" latitude="-23.67721259" longitude="-46.51636507" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node10}" pan="-178.373" distance="3.95471" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node10}" pan="-178.373" distance="3.95471" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -286,13 +286,13 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:41" copyright="" altitude="789.00" nodeid="node12" comment="" heading="-183.129" latitude="-23.67724943" longitude="-46.51631813" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:41" copyright="" altitude="789.00" nodeid="node12" comment="" heading="-183.129" latitude="-23.67724943" longitude="-46.51631813" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node9}" pan="-271.308" distance="4.27005" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node10}" pan="-97.9142" distance="3.66559" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-362.059" distance="3.6545" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node9}" pan="-271.308" distance="4.27005" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node10}" pan="-97.9142" distance="3.66559" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node13}" pan="-362.059" distance="3.6545" target="$fwd" skinid="ht_node" id="Point03" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -312,13 +312,13 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:42" copyright="" altitude="793.60" nodeid="node13" comment="" heading="-102.47" latitude="-23.67728229" longitude="-46.51631746" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:42" copyright="" altitude="793.60" nodeid="node13" comment="" heading="-102.47" latitude="-23.67728229" longitude="-46.51631746" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-101.4" distance="3.6545" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node14}" pan="1.15921" distance="3.47783" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node15}" pan="-273.894" distance="3.66032" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node12}" pan="-101.4" distance="3.6545" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node14}" pan="1.15921" distance="3.47783" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node15}" pan="-273.894" distance="3.66032" target="$fwd" skinid="ht_node" id="Point03" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -338,11 +338,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:43" copyright="" altitude="795.60" nodeid="node14" comment="" heading="-91.0879" latitude="-23.67728966" longitude="-46.51635065" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:43" copyright="" altitude="795.60" nodeid="node14" comment="" heading="-91.0879" latitude="-23.67728966" longitude="-46.51635065" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-167.459" distance="3.47783" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node13}" pan="-167.459" distance="3.47783" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -362,12 +362,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:44" copyright="" altitude="795.00" nodeid="node15" comment="" heading="-188.508" latitude="-23.67731484" longitude="-46.51631210" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:44" copyright="" altitude="795.00" nodeid="node15" comment="" heading="-188.508" latitude="-23.67731484" longitude="-46.51631210" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-179.932" distance="3.66032" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-356.58" distance="3.80382" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node13}" pan="-179.932" distance="3.66032" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node16}" pan="-356.58" distance="3.80382" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -387,13 +387,13 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:46" copyright="" altitude="793.50" nodeid="node16" comment="" heading="-200.128" latitude="-23.67734831" longitude="-46.51630438" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:46" copyright="" altitude="793.50" nodeid="node16" comment="" heading="-200.128" latitude="-23.67734831" longitude="-46.51630438" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node15}" pan="-188.2" distance="3.80382" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node17}" pan="-102.303" distance="3.75704" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node20}" pan="-360.795" distance="2.67614" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node15}" pan="-188.2" distance="3.80382" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node17}" pan="-102.303" distance="3.75704" target="$fwd" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="0" description="" url="{node20}" pan="-360.795" distance="2.67614" target="$fwd" skinid="ht_node" id="Point03" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -413,12 +413,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:48" copyright="" altitude="794.00" nodeid="node17" comment="" heading="-102.355" latitude="-23.67735291" longitude="-46.51634093" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:48" copyright="" altitude="794.00" nodeid="node17" comment="" heading="-102.355" latitude="-23.67735291" longitude="-46.51634093" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-184.53" distance="3.75704" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node18}" pan="-4.89966" distance="3.68498" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node16}" pan="-184.53" distance="3.75704" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node18}" pan="-4.89966" distance="3.68498" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -438,12 +438,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:49" copyright="" altitude="795.90" nodeid="node18" comment="" heading="-91.2327" latitude="-23.67735721" longitude="-46.51637681" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:49" copyright="" altitude="795.90" nodeid="node18" comment="" heading="-91.2327" latitude="-23.67735721" longitude="-46.51637681" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node17}" pan="-173.777" distance="3.68498" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node19}" pan="12.532" distance="3.9443" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node17}" pan="-173.777" distance="3.68498" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node19}" pan="12.532" distance="3.9443" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -463,11 +463,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:50" copyright="" altitude="796.30" nodeid="node19" comment="" heading="-303.28" latitude="-23.67736565" longitude="-46.51641443" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:50" copyright="" altitude="796.30" nodeid="node19" comment="" heading="-303.28" latitude="-23.67736565" longitude="-46.51641443" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node18}" pan="-379.515" distance="3.9443" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node18}" pan="-379.515" distance="3.9443" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -487,12 +487,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:54" copyright="" altitude="792.90" nodeid="node20" comment="" heading="-198.677" latitude="-23.67737102" longitude="-46.51629568" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:54" copyright="" altitude="792.90" nodeid="node20" comment="" heading="-198.677" latitude="-23.67737102" longitude="-46.51629568" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-179.344" distance="2.67614" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node21}" pan="-365.781" distance="2.90656" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node16}" pan="-179.344" distance="2.67614" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node21}" pan="-365.781" distance="2.90656" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -512,12 +512,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:58" copyright="" altitude="795.70" nodeid="node21" comment="" heading="-50.7983" latitude="-23.67739650" longitude="-46.51628931" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:58" copyright="" altitude="795.70" nodeid="node21" comment="" heading="-50.7983" latitude="-23.67739650" longitude="-46.51628931" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node20}" pan="-37.9024" distance="2.90656" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node22}" pan="-173.357" distance="3.36373" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node20}" pan="-37.9024" distance="2.90656" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node22}" pan="-173.357" distance="3.36373" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -537,12 +537,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:59" copyright="" altitude="795.10" nodeid="node22" comment="" heading="-232.227" latitude="-23.67741278" longitude="-46.51626147" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:59" copyright="" altitude="795.10" nodeid="node22" comment="" heading="-232.227" latitude="-23.67741278" longitude="-46.51626147" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node21}" pan="-174.786" distance="3.36373" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node23}" pan="-353.114" distance="4.05709" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node21}" pan="-174.786" distance="3.36373" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node23}" pan="-353.114" distance="4.05709" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -562,12 +562,12 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:00" copyright="" altitude="794.70" nodeid="node23" comment="" heading="-239.301" latitude="-23.67743151" longitude="-46.51622728" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:00" copyright="" altitude="794.70" nodeid="node23" comment="" heading="-239.301" latitude="-23.67743151" longitude="-46.51622728" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node22}" pan="-180.188" distance="4.05709" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
-      <hotspot tilt="0" description="" url="{node24}" pan="-361.775" distance="3.56212" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node22}" pan="-180.188" distance="4.05709" target="$fwd" skinid="ht_node" id="Point01" title=""/>
+      <hotspot tilt="0" description="" url="{node24}" pan="-361.775" distance="3.56212" target="$fwd" skinid="ht_node" id="Point02" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
@@ -587,11 +587,11 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:02" copyright="" altitude="796.60" nodeid="node24" comment="" heading="-132.155" latitude="-23.67744871" longitude="-46.51619777" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:02" copyright="" altitude="796.60" nodeid="node24" comment="" heading="-132.155" latitude="-23.67744871" longitude="-46.51619777" title=""/>
     <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
       <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
       <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node23}" pan="-74.6288" distance="3.56212" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André"/>
+      <hotspot tilt="0" description="" url="{node23}" pan="-74.6288" distance="3.56212" target="$fwd" skinid="ht_node" id="Point01" title=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
