@@ -1,605 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.10" start="node1" hassounds="0" apprev="21009">
+<tour apprev="21009" start="node1" hassounds="1" appversion="7.1.10">
   <panorama id="node1">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-97.3774" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:19" copyright="" altitude="792.60" nodeid="node1" comment="" heading="-97.3774" latitude="-23.67727230" longitude="-46.51611067" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node2}" pan="6.50988" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772723,-46.5161107,3a,75y,262.62h,90t/data=!3m4!1e1!3m2!1sCIABIhAKG0xqdfTIVWmKnuE9mviU!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-97.3774" longitude="-46.51611067" nodeid="node1" customnodeid="" latitude="-23.67727230" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:19" altitude="792.60"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="6.50988" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.27081" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node2}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-102.476" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:21" copyright="" altitude="789.60" nodeid="node2" comment="" heading="-102.476" latitude="-23.67727936" longitude="-46.51614185" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node1}" pan="-178.589" distance="3.27081" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node3}" pan="1.88496" distance="3.03059" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772794,-46.5161418,3a,75y,257.52h,90t/data=!3m4!1e1!3m2!1sCIABIhDA5j9P079l09Z9SL8gCWXw!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-102.476" longitude="-46.51614185" nodeid="node2" customnodeid="" latitude="-23.67727936" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:21" altitude="789.60"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-178.589" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.27081" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node1}"/>
+      <hotspot pan="1.88496" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.03059" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node3}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-106.142" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:23" copyright="" altitude="791.30" nodeid="node3" comment="" heading="-106.142" latitude="-23.67728612" longitude="-46.51617068" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node2}" pan="-181.781" distance="3.03059" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node4}" pan="-5.20458" distance="3.23499" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772861,-46.5161707,3a,75y,253.86h,90t/data=!3m4!1e1!3m2!1sCIABIhBPgSr0iZnacIdE_r3R7HkB!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-106.142" longitude="-46.51617068" nodeid="node3" customnodeid="" latitude="-23.67728612" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:23" altitude="791.30"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-181.781" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.03059" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node2}"/>
+      <hotspot pan="-5.20458" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.23499" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node4}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-14.8928" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:24" copyright="" altitude="800.10" nodeid="node4" comment="" heading="-14.8928" latitude="-23.67729164" longitude="-46.51620187" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node3}" pan="-93.9554" distance="3.23499" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node5}" pan="-6.11163" distance="2.90173" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772916,-46.5162019,3a,75y,345.11h,90t/data=!3m4!1e1!3m2!1sCIABIhAOUx1Q9eiD0jbvMcynadCq!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-14.8928" longitude="-46.51620187" nodeid="node4" customnodeid="" latitude="-23.67729164" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:24" altitude="800.10"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-93.9554" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.23499" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node3}"/>
+      <hotspot pan="-6.11163" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="2.90173" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node5}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-94.715" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:27" copyright="" altitude="792.90" nodeid="node5" comment="" heading="-94.715" latitude="-23.67726585" longitude="-46.51620622" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node4}" pan="-265.934" distance="2.90173" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node6}" pan="-5.49676" distance="3.74889" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772659,-46.5162062,3a,75y,265.29h,90t/data=!3m4!1e1!3m2!1sCIABIhChnj72FdlNItrKPZTU8yeY!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-94.715" longitude="-46.51620622" nodeid="node5" customnodeid="" latitude="-23.67726585" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:27" altitude="792.90"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-265.934" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="2.90173" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node4}"/>
+      <hotspot pan="-5.49676" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.74889" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node6}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-391.027" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:29" copyright="" altitude="788.20" nodeid="node6" comment="" heading="-391.027" latitude="-23.67726539" longitude="-46.51624303" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node5}" pan="-481.809" distance="3.74889" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-404.904" distance="3.12918" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772654,-46.516243,3a,75y,328.97h,90t/data=!3m4!1e1!3m2!1sCIABIhDUGmwwpf-rnN0pVTe8ttlI!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-391.027" longitude="-46.51624303" nodeid="node6" customnodeid="" latitude="-23.67726539" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:29" altitude="788.20"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-481.809" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.74889" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node5}"/>
+      <hotspot pan="-404.904" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.12918" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-285.705" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:30" copyright="" altitude="791.70" nodeid="node7" comment="" heading="-285.705" latitude="-23.67723807" longitude="-46.51623566" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node6}" pan="-119.582" distance="3.12918" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node8}" pan="-337.934" distance="3.4565" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node9}" pan="-180.436" distance="4.28155" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772381,-46.5162357,3a,75y,74.29h,90t/data=!3m4!1e1!3m2!1sCIABIhD-PHipy9onj3e4SBu9s16U!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-285.705" longitude="-46.51623566" nodeid="node7" customnodeid="" latitude="-23.67723807" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:30" altitude="791.70"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-119.582" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.12918" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node6}"/>
+      <hotspot pan="-337.934" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.4565" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node8}"/>
+      <hotspot pan="-180.436" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="4.28155" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node9}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-369.836" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:32" copyright="" altitude="795.40" nodeid="node8" comment="" heading="-369.836" latitude="-23.67721903" longitude="-46.51620883" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-242.065" distance="3.4565" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.677219,-46.5162088,3a,75y,350.16h,90t/data=!3m4!1e1!3m2!1sCIABIhBRRMy4S5VJllv-vEPhcCBJ!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-369.836" longitude="-46.51620883" nodeid="node8" customnodeid="" latitude="-23.67721903" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:32" altitude="795.40"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-242.065" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.4565" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-105.888" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:34" copyright="" altitude="791.30" nodeid="node9" comment="" heading="-105.888" latitude="-23.67724821" longitude="-46.51627622" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-14.0674" distance="4.27005" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node7}" pan="-180.619" distance="4.28155" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772482,-46.5162762,3a,75y,254.11h,90t/data=!3m4!1e1!3m2!1sCIABIhD6ivbZl7cCpedzTZYmB_E5!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-105.888" longitude="-46.51627622" nodeid="node9" customnodeid="" latitude="-23.67724821" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:34" altitude="791.30"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-14.0674" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="4.27005" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node12}"/>
+      <hotspot pan="-180.619" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="4.28155" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-22.7891" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:35" copyright="" altitude="793.70" nodeid="node10" comment="" heading="-22.7891" latitude="-23.67724668" longitude="-46.51635400" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node11}" pan="-6.22695" distance="3.95471" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-117.574" distance="3.66559" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772467,-46.516354,3a,75y,337.21h,90t/data=!3m4!1e1!3m2!1sCIABIhABe-4V_hwoj8VTOzkC3Rui!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-22.7891" longitude="-46.51635400" nodeid="node10" customnodeid="" latitude="-23.67724668" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:35" altitude="793.70"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-6.22695" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.95471" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node11}"/>
+      <hotspot pan="-117.574" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.66559" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node12}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-14.9352" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:37" copyright="" altitude="797.20" nodeid="node11" comment="" heading="-14.9352" latitude="-23.67721259" longitude="-46.51636507" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node10}" pan="-178.373" distance="3.95471" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772126,-46.5163651,3a,75y,345.06h,90t/data=!3m4!1e1!3m2!1sCIABIhAO0HBY4uG19wmxf4EWkb_k!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-14.9352" longitude="-46.51636507" nodeid="node11" customnodeid="" latitude="-23.67721259" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:37" altitude="797.20"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-178.373" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.95471" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node10}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-183.129" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:41" copyright="" altitude="789.00" nodeid="node12" comment="" heading="-183.129" latitude="-23.67724943" longitude="-46.51631813" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node9}" pan="-271.308" distance="4.27005" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node10}" pan="-97.9142" distance="3.66559" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-362.059" distance="3.6545" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772494,-46.5163181,3a,75y,176.87h,90t/data=!3m4!1e1!3m2!1sCIABIhB9gTFt0S9L1rZmntDfoHb9!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-183.129" longitude="-46.51631813" nodeid="node12" customnodeid="" latitude="-23.67724943" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:41" altitude="789.00"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-271.308" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="4.27005" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node9}"/>
+      <hotspot pan="-97.9142" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.66559" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node10}"/>
+      <hotspot pan="-362.059" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="3.6545" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node13}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-102.47" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:42" copyright="" altitude="793.60" nodeid="node13" comment="" heading="-102.47" latitude="-23.67728229" longitude="-46.51631746" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node12}" pan="-101.4" distance="3.6545" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node14}" pan="1.15921" distance="3.47783" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node15}" pan="-273.894" distance="3.66032" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772823,-46.5163175,3a,75y,257.53h,90t/data=!3m4!1e1!3m2!1sCIABIhAJSKDB_8dGmjGG5LylkuBa!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-102.47" longitude="-46.51631746" nodeid="node13" customnodeid="" latitude="-23.67728229" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:42" altitude="793.60"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-101.4" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.6545" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node12}"/>
+      <hotspot pan="1.15921" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.47783" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node14}"/>
+      <hotspot pan="-273.894" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="3.66032" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node15}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-91.0879" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:43" copyright="" altitude="795.60" nodeid="node14" comment="" heading="-91.0879" latitude="-23.67728966" longitude="-46.51635065" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-167.459" distance="3.47783" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6772897,-46.5163506,3a,75y,268.91h,90t/data=!3m4!1e1!3m2!1sCIABIhA7kFbJPbbEglz1WpgJbOI6!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-91.0879" longitude="-46.51635065" nodeid="node14" customnodeid="" latitude="-23.67728966" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:43" altitude="795.60"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-167.459" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.47783" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node13}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node15">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-188.508" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:44" copyright="" altitude="795.00" nodeid="node15" comment="" heading="-188.508" latitude="-23.67731484" longitude="-46.51631210" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node13}" pan="-179.932" distance="3.66032" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-356.58" distance="3.80382" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773148,-46.5163121,3a,75y,171.49h,90t/data=!3m4!1e1!3m2!1sCIABIhBDi70x4K35qc6_C-t0Z8Wo!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-188.508" longitude="-46.51631210" nodeid="node15" customnodeid="" latitude="-23.67731484" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:44" altitude="795.00"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-179.932" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.66032" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node13}"/>
+      <hotspot pan="-356.58" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.80382" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node16}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node16">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-200.128" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:46" copyright="" altitude="793.50" nodeid="node16" comment="" heading="-200.128" latitude="-23.67734831" longitude="-46.51630438" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node15}" pan="-188.2" distance="3.80382" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node17}" pan="-102.303" distance="3.75704" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node20}" pan="-360.795" distance="2.67614" target="$fwd" skinid="ht_node" id="Point03" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773483,-46.5163044,3a,75y,159.87h,90t/data=!3m4!1e1!3m2!1sCIABIhCGQbxqTm_NCx-sgOW3JhTn!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-200.128" longitude="-46.51630438" nodeid="node16" customnodeid="" latitude="-23.67734831" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:46" altitude="793.50"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-188.2" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.80382" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node15}"/>
+      <hotspot pan="-102.303" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.75704" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node17}"/>
+      <hotspot pan="-360.795" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="2.67614" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node20}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node17">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-102.355" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:48" copyright="" altitude="794.00" nodeid="node17" comment="" heading="-102.355" latitude="-23.67735291" longitude="-46.51634093" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-184.53" distance="3.75704" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node18}" pan="-4.89966" distance="3.68498" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773529,-46.5163409,3a,75y,257.64h,90t/data=!3m4!1e1!3m2!1sCIABIhAoUuPNEHAcLr3lpRb5S_GL!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-102.355" longitude="-46.51634093" nodeid="node17" customnodeid="" latitude="-23.67735291" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:48" altitude="794.00"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-184.53" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.75704" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node16}"/>
+      <hotspot pan="-4.89966" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.68498" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node18}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node18">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-91.2327" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:49" copyright="" altitude="795.90" nodeid="node18" comment="" heading="-91.2327" latitude="-23.67735721" longitude="-46.51637681" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node17}" pan="-173.777" distance="3.68498" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node19}" pan="12.532" distance="3.9443" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773572,-46.5163768,3a,75y,268.77h,90t/data=!3m4!1e1!3m2!1sCIABIhBKKXB4WP-ltKYZwRJ-4TEm!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-91.2327" longitude="-46.51637681" nodeid="node18" customnodeid="" latitude="-23.67735721" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:49" altitude="795.90"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-173.777" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.68498" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node17}"/>
+      <hotspot pan="12.532" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.9443" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node19}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node19">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-303.28" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:50" copyright="" altitude="796.30" nodeid="node19" comment="" heading="-303.28" latitude="-23.67736565" longitude="-46.51641443" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node18}" pan="-379.515" distance="3.9443" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773656,-46.5164144,3a,75y,56.72h,90t/data=!3m4!1e1!3m2!1sCIABIhCpJ7EZtyFSYFx7Icn_Lgw_!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-303.28" longitude="-46.51641443" nodeid="node19" customnodeid="" latitude="-23.67736565" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:50" altitude="796.30"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-379.515" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.9443" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node18}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node20">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-198.677" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:54" copyright="" altitude="792.90" nodeid="node20" comment="" heading="-198.677" latitude="-23.67737102" longitude="-46.51629568" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node16}" pan="-179.344" distance="2.67614" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node21}" pan="-365.781" distance="2.90656" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.677371,-46.5162957,3a,75y,161.32h,90t/data=!3m4!1e1!3m2!1sCIABIhD7MUNDKOmeju6zZ6xMvCbp!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-198.677" longitude="-46.51629568" nodeid="node20" customnodeid="" latitude="-23.67737102" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:54" altitude="792.90"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-179.344" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="2.67614" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node16}"/>
+      <hotspot pan="-365.781" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="2.90656" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node21}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node21">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-50.7983" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:58" copyright="" altitude="795.70" nodeid="node21" comment="" heading="-50.7983" latitude="-23.67739650" longitude="-46.51628931" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node20}" pan="-37.9024" distance="2.90656" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node22}" pan="-173.357" distance="3.36373" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6773965,-46.5162893,3a,75y,309.2h,90t/data=!3m4!1e1!3m2!1sCIABIhBBfi6QY3nvq-JROS8JeOoc!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-50.7983" longitude="-46.51628931" nodeid="node21" customnodeid="" latitude="-23.67739650" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:58" altitude="795.70"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-37.9024" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="2.90656" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node20}"/>
+      <hotspot pan="-173.357" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.36373" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node22}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node22">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-232.227" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 13:59" copyright="" altitude="795.10" nodeid="node22" comment="" heading="-232.227" latitude="-23.67741278" longitude="-46.51626147" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node21}" pan="-174.786" distance="3.36373" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node23}" pan="-353.114" distance="4.05709" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6774128,-46.5162615,3a,75y,127.77h/data=!3m4!1e1!3m2!1sCIABIhA3FLKR7nbDQRp2BGRBODT-!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-232.227" longitude="-46.51626147" nodeid="node22" customnodeid="" latitude="-23.67741278" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 13:59" altitude="795.10"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-174.786" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.36373" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node21}"/>
+      <hotspot pan="-353.114" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="4.05709" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node23}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node23">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-239.301" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:00" copyright="" altitude="794.70" nodeid="node23" comment="" heading="-239.301" latitude="-23.67743151" longitude="-46.51622728" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node22}" pan="-180.188" distance="4.05709" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-      <hotspot tilt="0" description="" url="{node24}" pan="-361.775" distance="3.56212" target="$fwd" skinid="ht_node" id="Point02" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6774315,-46.5162273,3a,75y,120.7h,90t/data=!3m4!1e1!3m2!1sCIABIhAu8VaRX3jVpvbAoUHgjgdd!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-239.301" longitude="-46.51622728" nodeid="node23" customnodeid="" latitude="-23.67743151" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 14:00" altitude="794.70"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-180.188" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="4.05709" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node22}"/>
+      <hotspot pan="-361.775" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.56212" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node24}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <panorama id="node24">
-    <input levelbias="0.400" leveltilesize="510" height="2000" levelingroll="0" overlap="1" width="2000" levelingpitch="0" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" levelbias="0.400" levelingroll="0" width="2000" levelingpitch="0" height="2000" leveltilesize="510">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-132.155" fovmode="2">
-      <start tilt="0" projection="4" pan="0" fov="100"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" fovstereographic="330" pan="360" fov="140" scaletofit="1"/>
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" source="" tags="OFIIII" info="" author="" customnodeid="" datetime="14/09/2025 14:02" copyright="" altitude="796.60" nodeid="node24" comment="" heading="-132.155" latitude="-23.67744871" longitude="-46.51619777" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label textcolor="0x000000" background="1" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" height="20" wordwrap="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1"/>
-      <polystyle mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot tilt="0" description="" url="{node23}" pan="-74.6288" distance="3.56212" target="$fwd" skinid="ht_node" id="Point01" title="Fisioterapia Jardim ( Fisioterapia em Santo André )"/>
+    <userdata streetviewlink="https://www.google.com/maps/@-23.6774487,-46.5161978,3a,75y,227.85h,90t/data=!3m4!1e1!3m2!1sCIABIhAlDcc-gaCEAKDavu6PRJkx!2e10" comment="" description="" tags="OFIIII" author="" copyright="" source="" heading="-132.155" longitude="-46.51619777" nodeid="node24" customnodeid="" latitude="-23.67744871" info="" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" datetime="14/09/2025 14:02" altitude="796.60"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" background="1" backgroundcolor="0xffffff" border="1" wordwrap="1" width="180" borderradius="1" bordercolor="0x000000" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-74.6288" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.56212" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node23}"/>
     </hotspots>
-    <media/>
-    <transition zoomoutpause="1" softedge="0" blendcolor="0x000000" zoomafteroutfov="40" delay="none" blendtime="1" zoomafterinfov="140" zoomin="7" enabled="1" type="mesh" zoomfov="40" zoomspeed="2" zoomout="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" invertcontrol="1" contextvr="1" contextprojections="0" sensitivity="8" rubberband="0" hideabout="0" speedwheel="1" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0"/>
+    <media>
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+        <source mono="1" url="media/download.MP3.mp3"/>
+      </sound>
+    </media>
+    <transition blendtime="1" delay="none" zoomafteroutfov="40" zoomin="7" softedge="0" zoomoutpause="1" blendcolor="0x000000" type="mesh" zoomafterinfov="140" zoomfov="40" enabled="1" zoomspeed="2" zoomout="0"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" contextfullscreen="1" hideabout="0" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0" contextprojections="0" invertwheel="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" description="" comment="" tags="" author="" title=""/>
+    <userdata comment="" title="" description="" author="" copyright="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
