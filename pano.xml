@@ -20,7 +20,7 @@
       <hotspot pan="6.50988" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.27081" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node2}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -49,7 +49,7 @@
       <hotspot pan="1.88496" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.03059" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node3}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -78,7 +78,7 @@
       <hotspot pan="-5.20458" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.23499" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node4}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -107,7 +107,7 @@
       <hotspot pan="-6.11163" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="2.90173" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node5}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -136,7 +136,7 @@
       <hotspot pan="-5.49676" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.74889" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node6}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -165,7 +165,7 @@
       <hotspot pan="-404.904" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.12918" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -195,7 +195,7 @@
       <hotspot pan="-180.436" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="4.28155" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node9}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -223,7 +223,7 @@
       <hotspot pan="-242.065" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.4565" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -252,7 +252,7 @@
       <hotspot pan="-180.619" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="4.28155" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node7}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -281,7 +281,7 @@
       <hotspot pan="-117.574" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.66559" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node12}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -309,7 +309,7 @@
       <hotspot pan="-178.373" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.95471" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node10}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -339,7 +339,7 @@
       <hotspot pan="-362.059" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="3.6545" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node13}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -369,7 +369,7 @@
       <hotspot pan="-273.894" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="3.66032" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node15}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -397,7 +397,7 @@
       <hotspot pan="-167.459" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.47783" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node13}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -426,7 +426,7 @@
       <hotspot pan="-356.58" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.80382" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node16}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -456,7 +456,7 @@
       <hotspot pan="-360.795" description="" id="Point03" tilt="0" skinid="ht_node" target="$fwd" distance="2.67614" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node20}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -485,7 +485,7 @@
       <hotspot pan="-4.89966" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.68498" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node18}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -514,7 +514,7 @@
       <hotspot pan="12.532" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.9443" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node19}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -542,7 +542,7 @@
       <hotspot pan="-379.515" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.9443" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node18}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -571,7 +571,7 @@
       <hotspot pan="-365.781" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="2.90656" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node21}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -600,7 +600,7 @@
       <hotspot pan="-173.357" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.36373" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node22}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -629,7 +629,7 @@
       <hotspot pan="-353.114" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="4.05709" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node23}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -658,7 +658,7 @@
       <hotspot pan="-361.775" description="" id="Point02" tilt="0" skinid="ht_node" target="$fwd" distance="3.56212" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node24}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
@@ -686,7 +686,7 @@
       <hotspot pan="-74.6288" description="" id="Point01" tilt="0" skinid="ht_node" target="$fwd" distance="3.56212" title="Fisioterapia Jardim ( Fisioterapia em Santo André )" url="{node23}"/>
     </hotspots>
     <media>
-      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="1" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
+      <sound mode="0" pan="-1.000" tiltsize="10.000" field="90.000" id="_background" tilt="-1.000" loop="3" level="1.000" ambientlevel="0.000" pansize="10.000" nodechangekeep="1" startmutedmobile="0">
         <source mono="1" url="media/download.MP3.mp3"/>
       </sound>
     </media>
